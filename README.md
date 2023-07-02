@@ -10,6 +10,10 @@ In this project, I aim to generate text which describe a given input image, ie g
 2. Used an Encoder-Decoder based model with Pre-Trained VGG16 as Encoder and LSTM cell as Decoder.
 3. Obtained Corpus Bleu-1 score of **0.539** and Corpus Bleu-2 score of **0.313** on the test data.
 
+# Model Architecture
+
+![Model](/model.png)
+
 # User Guide
 
 Steps to run this on your local computer:
