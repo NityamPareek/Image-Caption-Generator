@@ -2,7 +2,7 @@
 
 # Objective
 
-In this project, I aim to generate captions which describe a given input image, ie generate a 'caption' for the image. 
+In this project, I aim to generate text which describe a given input image, ie generate a 'caption' for the image. 
 
 # Methodology
 
@@ -12,6 +12,30 @@ In this project, I aim to generate captions which describe a given input image, 
 
 # User Guide
 
-'''python
-import nltk
-'''
+Steps to run this on your local computer:
+
+- Clone this repository
+```
+git clone https://github.com/NityamPareek/Image-Caption-Generator
+```
+
+- Make a new virtual environment in python in the folder in which this repository is saved and Active the Environment.
+```
+pip install virtualenv
+python -m venv <myenvname> 
+path\to\venv\Scripts\Activate.ps1  (Run this line with your path to activate the virtual environment)
+```
+- Download the requirements of the environment using 
+```
+pip install -r requirements.txt
+```
+- Download the model and place it into the same directory as app.py. You can download the model [here](https://drive.google.com/file/d/1Wjwzla4oB5OLOqO_G8BEwoOPxchH6JLG/view?usp=sharing).
+- Run app.py file to open the website
+```
+streamlit run app.py
+```
+
+# Website Screenshots
+- Upload an image of your choice
+  
+- The results will appear below your image under the 'Generated Caption' heading
