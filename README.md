@@ -40,6 +40,7 @@ streamlit run app.py
 ```
 
 # Website Screenshots
-- Upload an image of your choice
-  
+- This is the homepage you will see in the browser. To upload your image, click on browse and select an image from your computer.
+![Homepage](/homepage.png)
 - The results will appear below your image under the 'Generated Caption' heading
+![Output](/output.png)
