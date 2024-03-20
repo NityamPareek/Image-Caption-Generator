@@ -11,7 +11,7 @@ In this project, I aim to generate text which describe a given input image, ie g
 
 # Model Architecture
 
-![Model](/model.png)
+![Model](/model_updated.png)
 
 # User Guide
 
